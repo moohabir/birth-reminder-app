@@ -3,7 +3,7 @@ import data from "./data";
 
 export default function Birth() {
   const [open, setOpen] = useState(data);
-  const [show, setShow] = useState(false);
+  //const [show, setShow] = useState(false);
 
   return (
     <div className="birth">
@@ -12,6 +12,7 @@ export default function Birth() {
         return (
           <div key={item.id} {...item}>
             <div>
+              <img src={item.image} alt="" />
               <h3>{item.name}</h3>
               <p>{item.age}</p>
             </div>
