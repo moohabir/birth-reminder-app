@@ -14,7 +14,7 @@ export default function Birth() {
             <div className="item-list">
               <img src={item.image} alt="" className="image" />
               <h3>{item.name}</h3>
-              <p>{item.age}</p>
+              <span className="span">{item.age} years</span>
             </div>
             <div></div>
           </div>
