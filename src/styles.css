@@ -16,9 +16,9 @@
   background-color: khaki;
   border-radius: 12px;
   padding: 20px;
-  margin: 60px;
+
   height: 45vh;
-  width: 50%;
+  margin: 40px 300px;
   align-items: center;
   justify-content: center;
   color: black;
@@ -34,6 +34,15 @@
   padding: 10px;
   border: 1px solid lightblue;
   border-radius: 12px;
-  width: 60px;
+
   margin: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .item-list {
+    background-color: khaki;
+    padding: 20px;
+    margin: 10px 40px;
+    align-items: center;
+    justify-content: center;
+  }
 }
