@@ -6,13 +6,13 @@ export default function Birth() {
   //const [show, setShow] = useState(false);
 
   return (
-    <div className="birth">
+    <div className="items">
       <h3>{open.length} peoole have Birthday Today</h3>
       {open.map((item) => {
         return (
           <div key={item.id} {...item}>
-            <div>
-              <img src={item.image} alt="" />
+            <div className="item-list">
+              <img src={item.image} alt="" className="image" />
               <h3>{item.name}</h3>
               <p>{item.age}</p>
             </div>
