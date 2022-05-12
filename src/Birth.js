@@ -21,8 +21,12 @@ export default function Birth() {
         );
       })}
       <div>
-        <button onClick={() => setOpen([])}>Set</button>
-        <button onClick={() => setOpen(data)}>show</button>
+        <button className="btn" onClick={() => setOpen([])}>
+          Set
+        </button>
+        <button className="btn" onClick={() => setOpen(data)}>
+          show
+        </button>
       </div>
     </div>
   );
